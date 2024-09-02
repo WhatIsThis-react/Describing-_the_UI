@@ -1,3 +1,7 @@
+import ConditionalList from "./ConditionalList";
+import List from "./List";
+import Header from "./Header";
+
 function App() {
   return (
     <div
@@ -8,7 +12,11 @@ function App() {
         display: "flex",
         flexDirection: "column",
       }}
-    ></div>
+    >
+      <Header name="효린" />
+      <List />
+      <ConditionalList />
+    </div>
   );
 }
 
